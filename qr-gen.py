@@ -1,4 +1,4 @@
-Class color:
+class color:
    UNDERLINE = '\033[4m'
 
 import pyqrcode
@@ -12,5 +12,5 @@ url.svg('output.svg', scale=4)
 buffer = io.Bytes.IO()
 url.svg(buffer)
 print(f' ')
-print(color.UNDERLINE + f 'Done!')
+print(color.UNDERLINE + f'Done!')
 print(f' ')
